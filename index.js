@@ -18,7 +18,7 @@ function play(question, answer){
     log(chalk.redBright("you are wrong"));
   }
   
-  log(chalk.greenBright("score is:"+score));
+  log(chalk.bgRed("score is:"+score));
   console.log("----------");
 }
  

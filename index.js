@@ -67,7 +67,7 @@ var currentscore = score;
 
 function plays(Name, Marks){
 if(currentscore > Marks){
-  log(chalk.green("Congratulations! You are winner. You have beaten highestscorer: "+Name+ ". Please share screenshot."));
+  log(chalk.green("Congratulations! You are winner. You have beaten highestscorer: "+Name+ ". Please share screenshot of your score."));
 }
 else
   log(chalk.red("Sorry winner is: "+Name));
